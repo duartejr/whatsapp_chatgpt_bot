@@ -13,7 +13,6 @@ class WppBot:
     
     # The constructor will take the input of the name of the bot 
     def __init__(self, nome_bot):
-        self.trainer.train(self.conversation)
         self.driver = webdriver.Firefox()
     
     def send_keys(self, box, msg):

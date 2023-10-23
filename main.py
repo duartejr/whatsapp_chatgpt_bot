@@ -5,7 +5,7 @@ from bot import WppBot
 bot = WppBot('robozin')
 
 # We start the bot by informing the group/person we are going to talk to.
-bot.start('Gg')
+bot.start('Junior')
 
 # We set our greeting to join the group with two sentences in a list.
 bot.greeting(['Bot: Oi sou o bot do Duarte!',
